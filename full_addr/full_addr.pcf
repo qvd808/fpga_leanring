@@ -1,0 +1,10 @@
+# LEDs
+
+set_io 			out	    99
+set_io 			carry	98
+
+#PMOD I/O
+set_io    -pullup   yes     pmod[0]    78
+set_io    -pullup   yes     pmod[1]    79
+set_io    -pullup   yes     pmod[2]    80
+
