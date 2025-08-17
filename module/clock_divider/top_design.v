@@ -3,9 +3,8 @@
 module top_design (
 
     // Inputs
-    input clk,
-    input rst_btn,
-
+    input        clk,
+    input        rst_btn,
     // Outputs
     output [1:0] led
 );
